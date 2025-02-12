@@ -6,15 +6,14 @@ public class inp {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
-        //String namee = scanner.next();
+       // String name = scanner.next();
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
         System.out.print("What is your gpa: ");
         double gpa = scanner.nextDouble();
-
-        System.out.println("Are you a student? (true/false): ");
+      System.out.println("Are you a student? (true/false): ");
         boolean isStudent = scanner.nextBoolean();
 
         System.out.println("Hello "+name);
