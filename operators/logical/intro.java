@@ -1,4 +1,4 @@
-package logical;
+package operators.logical;
 import java.util.Scanner;
 public class intro {
     public static void main(String[] args) {
