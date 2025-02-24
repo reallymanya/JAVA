@@ -1,6 +1,6 @@
 package printff;
 //printf() = method used to format an output
-// %[flags][width][.precision][specific-character]
+// %[flags][width][.precision][conversion-character]
 public class neww{
     public static void main(String[] args){
         String name = "Spongebob";
@@ -8,7 +8,7 @@ public class neww{
         int age = 30;
         double height = 60.5;
         boolean isEmployed = true;
-
+// [conversion-character]
         System.out.printf("Hello %s\n", name);
         System.out.printf("Your name starts with a %c\n", firstletter);
         System.out.printf("You are %d years old\n", age);
@@ -17,7 +17,7 @@ public class neww{
 
         System.out.printf("%s is %d years old", name, age);
         System.out.println("\n");
-
+// [precision]
         double price1 = 9.99;
         double price2 = 9.99;
         double price3 = 54.01;
@@ -29,7 +29,7 @@ public class neww{
         System.out.printf("%.2f\n", price4);
 
         // [flags]
-
+        
         // + = output plus
         // , = comma grouping separator
         // ( = negative numbers are enclosed  in a ()
@@ -75,6 +75,7 @@ public class neww{
         System.out.printf("%-4d\n", id3);
         System.out.printf("%-4d\n", id4);
 
+        System.out.printf("Hellp %10s", name);
 
      
     }
